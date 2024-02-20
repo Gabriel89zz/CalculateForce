@@ -30,9 +30,9 @@ namespace CalculateForce
 			acceleration = 0;
         }
 
-		public double CalculeteForce() 
+		public double CalculeteForce(Force blow) 
 		{
-			return mass*acceleration;
+			return blow.mass*blow.acceleration;
 		}
     }
 }
